@@ -98,10 +98,10 @@ Example:
 app.get('/oauth/refresh', async (req, res) => {
 	try {
 		const payload = await oauth2.refresh({
-		base_url: baseUrl,
-		client_id: consumerKey,
-		client_secret: consumerSecret,
-		refresh_token: req.query.refresh_token
+			base_url: baseUrl,
+			client_id: consumerKey,
+			client_secret: consumerSecret,
+			refresh_token: req.query.refresh_token
 		});
 
 		res.json({ payload });
@@ -122,10 +122,10 @@ Example:
 app.get('/oauth/isAccessTokenValid', async (req, res) => {
 	try {
 		const payload = await oauth2.isAccessTokenValid({
-		base_url: baseUrl,
-		client_id: consumerKey,
-		client_secret: consumerSecret,
-		token: req.query.token
+			base_url: baseUrl,
+			client_id: consumerKey,
+			client_secret: consumerSecret,
+			token: req.query.token
 		});
 
 		res.json(payload);
@@ -139,10 +139,10 @@ app.get('/oauth/isAccessTokenValid', async (req, res) => {
 app.get('/oauth/isRefreshTokenValid', async (req, res) => {
 	try {
 		const payload = await oauth2.isRefreshTokenValid({
-		base_url: baseUrl,
-		client_id: consumerKey,
-		client_secret: consumerSecret,
-		token: req.query.token
+			base_url: baseUrl,
+			client_id: consumerKey,
+			client_secret: consumerSecret,
+			token: req.query.token
 		});
 
 		res.json(payload);
