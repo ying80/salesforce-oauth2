@@ -6,19 +6,15 @@
     "salesforce"
   ],
   "author": {
-    "name": "Can Gencer",
-    "email": "cgencer@gmail.com"
+    "name": "Ying Han",
+    "email": "y@h300.net"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cangencer/salesforce-oauth2"
+    "url": "https://github.com/ying80/salesforce-oauth2"
   },
   "main": "lib/salesforce-oauth2",
-  "version": "0.2.0",
-  "dependencies": {
-    "request": "~2.85.0",
-    "underscore": "~1.6.0"
-  },
+  "version": "0.3.0",
   "devDependencies": {
     "mocha": "~1.20.1",
     "nock": "~0.42.1",
